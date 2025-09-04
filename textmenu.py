@@ -1,4 +1,13 @@
-def menu_program():
+# Program Name: textmenu.py (use the name the program is saved as)
+# Course: IT3883/Section XXX
+# Student Name: John Doe
+# Assignment Number: Lab#
+# Due Date: xx/xx/ 20XX
+# Purpose: What does the program do (in a few sentences)?
+# List Specific resources used to complete the assignment.
+
+
+def textmenu():
     input_buffer = ""  # buffer to store user input
     
     while True:
