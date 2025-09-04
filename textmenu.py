@@ -6,22 +6,23 @@
 # Purpose: a python program that implements a text-based menu. 
 # Used Python module and chapters.
 
-
+#Defines main 
 def textmenu():
     input_buffer = ""  # buffer to store user input
-    
+    #loop until exit
     while True:
+        
         print("\n Text-Menu")
         print("1. Append data to the input buffer")
         print("2. Clear the input buffer")
         print("3. Display the input buffer")
         print("4. Exit the menu")
-
+#printing options for menu
         choice = input("Enter your choice (1-4): ")
 
         if choice == "1":
-            data = input("Enter text for append: ")
-            input_buffer += data
+            data = input("Enter text for append: ") #input from user
+            input_buffer += data      #adding to buffer
             print("Data appended to buffer.")
         elif choice == "2":
             input_buffer = ""
