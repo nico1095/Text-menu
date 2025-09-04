@@ -18,13 +18,14 @@ def textmenu():
         print("3. Display the input buffer")
         print("4. Exit the menu")
 #printing options for menu
-        choice = input("Enter your choice (1-4): ")
+        choice = input("Enter choice from menu. ")
 
         if choice == "1":
             data = input("Enter text for append: ") #input from user
             input_buffer += data      #adding to buffer
             print("Data appended to buffer.")
         elif choice == "2":
+            #reset string
             input_buffer = ""
             print("Buffer cleared.")
         elif choice == "3":
