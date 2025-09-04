@@ -23,7 +23,7 @@ def textmenu():
         if choice == "1":
             data = input("Enter text for append: ") #input from user
             input_buffer += data      #adding to buffer
-            print("Data appended to buffer.")
+            print("Data appended for buffer.")
         elif choice == "2":
             #reset string
             input_buffer = ""
@@ -35,9 +35,9 @@ def textmenu():
                 print("Empty Buffer")
         elif choice == "4":
             print("Exit menu")
-            break
+            break  #stop 
         
 
-# Run the program
+# run
 if __name__ == "__main__":
     textmenu()
