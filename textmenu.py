@@ -1,10 +1,10 @@
-# Program Name: textmenu.py (use the name the program is saved as)
-# Course: IT3883/Section XXX
-# Student Name: John Doe
-# Assignment Number: Lab#
-# Due Date: xx/xx/ 20XX
-# Purpose: What does the program do (in a few sentences)?
-# List Specific resources used to complete the assignment.
+# Program Name: textmenu.py 
+# Course: IT3883/Section W02
+# Student Name: Anthony Giso
+# Assignment Number: 1
+# Due Date: 09/05/ 2025
+# Purpose: a python program that implements a text-based menu. 
+# Used Python module and chapters.
 
 
 def textmenu():
